@@ -7,16 +7,15 @@ var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
-
-
+enemyNames[0]
 console.log(enemyNames.length);
-for(var i = 0; i < enemyNames.length; i++) {
-    console.log(enemyNames[i]);
+for(var i = 0; i < enemyNames.legth; i++) {
+    console.log(enemyNames[i];
     console.log(i);
-    console.log(enemyNames[i] + " is at " + i + " index ");
+    console.log(enemyName[i] + " is at " + i + " index ");
 }
 
-var fight = function(enemyName) {
+var fight = function() {
     window.alert("Welcome to Robot Gladiators!");
 
 var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
@@ -81,6 +80,9 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
         );
 }
 
+ /var fight = function(enemyName) {
+     ... // fight fuction statements
+ }
  for(var i = 0; i < enemyNames.length; i++) {
      fight(enemyNames[i]);
  }
